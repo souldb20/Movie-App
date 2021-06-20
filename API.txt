@@ -1,0 +1,5 @@
+API 키(v3 auth): 'ad9f1d97446be26cfd02088eeebe153a'
+
+API 요청 예: https://api.themoviedb.org/3/movie/550?api_key=ad9f1d97446be26cfd02088eeebe153a
+
+API 읽기 액세스 토큰 (v4 auth) : eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZDlmMWQ5NzQ0NmJlMjZjZmQwMjA4OGVlZWJlMTUzYSIsInN1YiI6IjYwY2EwODA0NGYzYTRjMDA1N2M1ZjJhNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.8-63Gxf9I4PUVsT5L1nVnmAnRHHFYStWU6XnDf01D64
