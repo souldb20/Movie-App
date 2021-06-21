@@ -1,18 +1,8 @@
-Hello, My Friends  
-Thank you for having interest in this repository ! 
+Movie App
 
-To use this application, 
+노드와 리액트로 만든 영화앱
 
-1. make dev.js file inside config folder 
-2. put mongoDB info into dev.js file 
-3. Type  " npm install " inside the root directory  ( Download Server Dependencies ) 
-4. Type " npm install " inside the client directory ( Download Front-end Dependencies )
+유튜브 "John Ahn" 님의 강의 무비앱시리즈를 따라 만들었습니다.
 
-
-If you have problem, feel free to ask me ^^ 
-
-You can watch the tutorial for this app.
-
-https://www.youtube.com/channel/UCFyXA9x8lpL3EYWeYhj4C4Q?view_as=subscriber
-
-
+Client = React <br />
+Server = Nodejs
