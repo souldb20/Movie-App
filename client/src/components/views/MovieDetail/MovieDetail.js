@@ -16,9 +16,9 @@ const MovieDetail = (props) => {
 
     useEffect(() => {
 
-        let endpointCrew = `${API_URL}movie/${movieId}/credits?api_key=${API_KEY}`
+        let endpointCrew = `${API_URL}movie/${movieId}/credits?api_key=${API_KEY}&language=ko-KR`
 
-        let endpointInfo = `${API_URL}movie/${movieId}?api_key=${API_KEY}`
+        let endpointInfo = `${API_URL}movie/${movieId}?api_key=${API_KEY}&language=ko-KR`
 
         fetch(endpointInfo)
             .then(response => response.json())

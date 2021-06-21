@@ -12,7 +12,7 @@ const LandingPage = () => {
         const [CurrentPage, setCurrentPage] = useState(0)
 
         useEffect(() => {
-            const endpoint = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US&page=1`;
+            const endpoint = `${API_URL}movie/popular?api_key=${API_KEY}&language=ko-KR&page=1`;
             fetchMovies(endpoint)              
 
         }, [input])
@@ -31,7 +31,7 @@ const LandingPage = () => {
 
         const loadMoreItems = () => {
 
-            const endpoint = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US&page=${CurrentPage + 1}`;
+            const endpoint = `${API_URL}movie/popular?api_key=${API_KEY}&language=ko-KR&page=${CurrentPage + 1}`;
             fetchMovies(endpoint)
         }
 
